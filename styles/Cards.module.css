@@ -1,0 +1,15 @@
+.slider-container {
+  position: relative;
+  overflow-x: hidden;
+  height: 250px;
+}
+
+.slider-width {
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  left: 0;
+  top: 0;
+  transition: 0.4s ease-in-out;
+}
